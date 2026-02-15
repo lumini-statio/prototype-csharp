@@ -4,7 +4,7 @@ services:
     container_name: db
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=Sandy2003
+      - SA_PASSWORD=Secret1234
     ports:
       - "1434:1433"
     volumes:
